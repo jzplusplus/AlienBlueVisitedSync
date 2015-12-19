@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3B781E41-410E-4B39-920A-6E4C409C3C76</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AlienBlueVisitedSync</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>30C14ABBE0AF6C1175F05904EEA8F7C57D67422A</key>
+		<string>https://github.com/jzplusplus/AlienBlueVisitedSync.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AlienBlueVisitedSync.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>30C14ABBE0AF6C1175F05904EEA8F7C57D67422A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jzplusplus/AlienBlueVisitedSync.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>30C14ABBE0AF6C1175F05904EEA8F7C57D67422A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>30C14ABBE0AF6C1175F05904EEA8F7C57D67422A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AlienBlueVisitedSync</string>
+		</dict>
+	</array>
+</dict>
+</plist>

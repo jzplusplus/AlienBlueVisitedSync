@@ -15,7 +15,6 @@
 /* Begin PBXFileReference section */
 		3BE5CD59194C1365000E20B7 /* AlienBlueVisitedSync.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = AlienBlueVisitedSync.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE5CD5C194C1365000E20B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3BE5CD61194C1365000E20B7 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
 		3BE5CD62194C1365000E20B7 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
 		3BE5CD64194C1365000E20B7 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
 		3BE5CD65194C1365000E20B7 /* AlienBlueVisitedSync-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlienBlueVisitedSync-Prefix.pch"; sourceTree = "<group>"; };
@@ -87,7 +86,6 @@
 		3BE5CD60194C1365000E20B7 /* DEBIAN */ = {
 			isa = PBXGroup;
 			children = (
-				3BE5CD61194C1365000E20B7 /* control.txt */,
 				3BE5CD62194C1365000E20B7 /* control */,
 			);
 			name = DEBIAN;
@@ -347,6 +345,7 @@
 				3BE5CD71194C1365000E20B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

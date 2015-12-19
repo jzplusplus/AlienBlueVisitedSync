@@ -12,21 +12,18 @@
 
 - (void)markVisited
 {
-    NSString *url = [@"http://www.reddit.com/api/store_visits?links=" stringByAppendingString:[self name]];
-    NSString *modhash = [[%c(RedditAPI) shared] modhash];
-    NSString *cookie = [@"reddit_session=" stringByAppendingString:[[%c(RedditAPI) shared] cookie]];
-    
-//    NSLog(@"Sending request to: %@", url);
-//    NSLog(@"With modhash: %@", modhash);
-//    NSLog(@"With cookie: %@", cookie);
+    NSString *url = [@"https://oauth.reddit.com/api/store_visits?links=" stringByAppendingString:[self name]];
     
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]];
     request.HTTPMethod = @"POST";
     
-    [request addValue:cookie forHTTPHeaderField:@"Cookie"];
-    [request addValue:modhash forHTTPHeaderField:@"X-Modhash"];
+    NSDictionary<NSString *, NSString *> *headers = [[%c(RedditAPI) shared] generateOAuthAuthenticationHeadersForRedditRequest];
+    for(NSString *key in headers)
+    {
+        [request setValue:[headers objectForKey:key] forHTTPHeaderField:key];
+    }
     
-    NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:nil];
+    [[NSURLConnection alloc] initWithRequest:request delegate:nil];
     
     %orig;
 }
